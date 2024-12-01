@@ -1,5 +1,7 @@
 # Kirin
 
+![Unit Tests](https://github.com/decelpop/kirin/actions/workflows/unit-tests.yml/badge.svg)
+
 ## About Kirin
 
 Kirin aims to be a small ERP for small businesses, focusing on those who have
