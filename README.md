@@ -20,3 +20,8 @@ manage and automate the manufacturing side (stickers, 3d printing, etc)
 - Kirin is also able to manage basic stock inventory for manufacturing,
   such as number of rolls of filament in stock
 - Basic web interface to show/print shipping labels and packing list
+
+## Development
+
+- `cp .env.example .env` and modify the file as suitable
+- To start the development server via Sail, `./vendor/bin/sail up`

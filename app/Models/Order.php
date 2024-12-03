@@ -8,6 +8,11 @@ use App\Events\OrderUpdated;
 use Database\Factories\OrderFactory;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 
+/**
+ * Representation of incoming manufacturing request
+ * Equivalents in other domains:
+ * - Etsy -> Receipt
+ */
 class Order
 {
     /** @use HasFactory<OrderFactory> */
@@ -19,8 +24,6 @@ class Order
      * @var array<int, string>
      */
     protected $fillable = [
-        'name',
-        'personal_team',
     ];
 
     /**
@@ -42,7 +45,6 @@ class Order
     protected function casts(): array
     {
         return [
-            'personal_team' => 'boolean',
         ];
     }
 }
